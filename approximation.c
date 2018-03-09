@@ -25,9 +25,6 @@ bool weightsHaveBeenSet = false;
 //The new error is calculated as following total += error * weight
 float weights[numberOfSensors];
 
-task main{
-}
-
 //Sets the weights to new values
 void setWeights(float *newWeights)
 {
